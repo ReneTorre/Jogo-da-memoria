@@ -42,6 +42,7 @@ header {
    width: 100%;
    max-width: 800px;
    margin: 0 auto;
+   background: transparent;
 }
 
 .card {
@@ -51,7 +52,7 @@ header {
     position: relative;
     transition: all 400ms ease;
     transform-style: preserve-3d;
-    background-color: #ccc;
+    background: #ccc;
 }
 
 .face {
@@ -104,6 +105,7 @@ header {
     border: solid black 2px;
     cursor: pointer;
     transform: scale(1.2) ease;
+    background: #ccc;
     
 }
 
