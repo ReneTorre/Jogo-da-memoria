@@ -4,16 +4,16 @@ const timer = document.querySelector('.timer');
 const buttonRestart = document.querySelector('.restart-box')
 
 const characters = [
-    'beth',
-    'jerry',
-    'jessica',
-    'morty',
-    'pessoa-passaro',
-    'pickle-rick',
-    'rick',
-    'summer',
-    'meeseeks',
-    'scroopy',
+    'Babidi',
+    'Bills',
+    'Curirin',
+    'Freeza',
+    'Ceu',
+    'Goku',
+    'goku1',
+    'Majimbul',
+    'Piccolo_Jr',
+    'vegeta',
 ];
 
 const createElement = (tag, className) => {
