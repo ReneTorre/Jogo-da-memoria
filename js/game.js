@@ -1,8 +1,7 @@
 const grid = document.querySelector('.grid');
 const spanPlayer = document.querySelector('.player');
 const timer = document.querySelector('.timer');
-const buttonRestart = document.querySelector('.restart-box');
-
+const buttonRestart = document.querySelector('.restart-box')
 
 const characters = [
     'Babidi',
@@ -39,6 +38,7 @@ const checkEndGame = () => {
         clearInterval(this.loop);
         buttonRestart.style.display = 'flex';
         alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi: ${timer.innerHTML}`);
+        
     } 
 }
 
@@ -65,7 +65,7 @@ const checkCards = () => {
             firstCard = '';
             secondCard = '';
 
-        }, 500);  
+        }, 700);  
     }
 }
 
@@ -141,6 +141,5 @@ window.onload = () => {
     startTimer();
     loadGame();
 }
-
 
 
